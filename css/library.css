@@ -1,0 +1,186 @@
+/*------------图书馆管理系统样式--------
+ 此处样式是基于mui框架CSS表
+created by XW_Wong 20160704
+-------------------------------------*/
+
+
+/*登陆界面样式*/
+
+.mui-input-group {
+	margin-top: 10px;
+}
+
+.mui-input-group:first-child {
+	margin-top: 20px;
+}
+
+.mui-input-group label {
+	width: 40%;
+	font-family: "微软雅黑";
+}
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	width: 60%;
+}
+
+.mui-content-padded {
+	margin-top: 25px;
+}
+
+.mui-btn {
+	padding: 10px;
+}
+
+.link-area {
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.link-area a {
+	margin: 0 10px;
+}
+.input-form{
+	border: 1px solid #CF2D28;
+	border-radius: 10px;
+}
+.submit-btn {
+	margin-top: 30px;
+	height: 50px;
+	font-family: "微软雅黑";
+}
+/*index页面样式*/
+.indexTopBox{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	margin: 5% 0;
+}
+.indexTopLogo{
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+}
+#index_search{
+	width: 80%;
+	height: 40px;
+	background-color: white;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	border: 1px solid #CF2D28;
+}
+#index_search_box input[type="submit"]{
+      width: 18%;
+      height: 40px;
+      background-color: #CF2D28;
+      border: 1px solid #CF2D28;
+      border-bottom-left-radius: 0;
+       border-top-left-radius: 0;
+}
+/*针对样式.mui-search .mui-placeholder的修改*/
+#index_search_box .mui-placeholder{
+	width: 80%;
+     margin-left: 10px;
+	 text-align:left;
+	 line-height: 40px;
+	 font-size: 16px;
+}
+/*book_list是指一个版块*/
+.book_list{
+	border: 1px solid #CF2D28;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.book_list img{
+	width:100%;
+	height:60px;
+}
+#search_btn{
+	position: relative;
+	left: 80%;
+	top:-55px;
+}
+/*书本详情页样式*/
+.book_detail_Top{
+	width:100%;
+	height: 150px;
+	background-color: #1E90FF;
+	position: relative;
+}
+.book_detail_Top img{
+	width:30%;
+	height:80%;
+	margin:20px;
+}
+.book_message_box{
+	position: absolute;
+	left: 40%;
+	top:10%;
+}
+.book_message_box span{
+	display: block;
+	font-size: small;
+}
+.book_message_box span[class="title"]{
+	margin-bottom: 15%;
+	font-size: large;
+	font-family: "微软雅黑";
+}
+.book_message_box span[class="count"]{
+	display: inline;
+	font-size: small;
+}
+#book_brief_intr{
+	background: lightgray;
+}
+
+
+
+#book_detail_nav{
+	width:100%;
+	height: 35px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}
+#book_detail_nav a{
+	width: 50%;
+	display: inline-block;
+}
+#book_detail_nav button{
+	width: 100%;
+}
+/*借阅信息页面*/
+#mui-collapse-content{
+	font-size: small;
+}
+.book_message_box span[class="check_time"]{
+  font-size: large;
+  color: red;	
+}
+
+/*借阅信息页面样式*/
+#borrow_message_img{
+	width: 20%;
+    display:inline;
+    float: left;
+}
+
+#borrow_message_detail{
+	border: 1px solid lightblue;
+	border-radius: 3px;
+	width:75%;
+	float: right;
+	display: inline;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+/*管理员index页面样式*/
+#admin_index_add_btn{
+	width: 80%;
+	margin-top: 0;
+	margin-left: 10%;
+}

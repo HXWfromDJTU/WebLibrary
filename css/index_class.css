@@ -1,0 +1,141 @@
+.shop_market{
+	right: 10px;
+	left: 10px;
+	display: inline-block;
+	overflow: hidden;
+	width: auto;
+	margin: 0;
+	text-overflow: ellipsis
+}
+.pictindex{
+	border-top: 1px solid #c8c7cc;
+	border-bottom: 1px solid #c8c7cc;
+	
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#imgads{
+		height:100%;
+		width: 100%;
+	}
+	.button{
+		background-color: cornflowerblue;
+		border: none;
+		color:white;
+
+		width: 18%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size:16px;
+		margin: 0px 0px;
+		cursor:pointer;
+	}
+	#send_button{
+		background-color:aquamarine;
+		border:none;
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		font-size:30px;
+		font-family: "微软雅黑";
+		cursor:pointer;
+	}
+	.adImg{
+	width:100%;
+}
+
+}
+/*社交圈提交界面样式*/
+.mui-circleSubmit-imgBox{
+	padding:5px;
+	border-radius: 3px;
+	background-color:white;
+}
+#mui-circleSubmit-img1,#mui-circleSubmit-img2,#mui-circleSubmit-img3{
+	border-radius: 5px;
+	margin:0 5px;
+	width:85px;
+	height: 85px;
+	border:1px solid red ;
+}
+.mui-circleSubmit-imgBox hr{
+	width:95%;
+}
+
+#msg-form{
+	margin-top: 20px;
+}
+.msg-list{
+	margin-top: 20px;
+}
+/*订单预览页面样式*/
+.mui-font-listItem{
+	width: 40%;
+	color: gray;
+}
+.mui-font-listContent{
+	width:50%;
+}
+.msg-list{
+	margin-top: 20px;
+}
+.adImg-box{
+	width:100%;
+	height:200px;
+	margin-bottom: 5px;
+}
+.adImg{
+	width:100%;
+	height: 100%;
+}
+#input-price{
+	width:50%;
+}
+#input-price-btn{
+	
+	width:50%;
+}
+#inputPrice{
+	width:60%;
+}
+.mui-forum-postBottomSend{
+	padding:0 2%;
+	width:35%;
+	border:1px solid green;
+	height: 40px;
+}
+#mui-media-price{
+	color: greenyellow;
+	font-size: 200%;
+	float: right;
+	border-radius: 5px;
+	width: 30%;
+	
+
+}
+.peopleAround{
+	margin-top: 10px;
+}
+#countdown{
+	float: right;
+	color: red;
+	font-family: "微软雅黑";
+}
+#newPrice{
+	float: right;
+	color: orangered;
+	font-family: "微软雅黑";
+	font-size: 200%;
+}
+#goodSended {
+	border-radius: 3px;
+	padding-top:3px;
+	position: absolute;
+	bottom: 8px;
+	width: 20%;
+	height:1.5em;
+	text-align: center;
+	color: white;
+	background-color: #FF0000;
+}
+
